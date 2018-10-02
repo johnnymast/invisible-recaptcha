@@ -1,0 +1,22 @@
+{
+    "name": "redbox/invisible-recaptcha",
+    "authors": [
+        {
+            "name": "Johnny Mast",
+            "email": "mastjohnny@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Redbox\\InvisibleReCaptcha\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Redbox\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
